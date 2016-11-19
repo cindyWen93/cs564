@@ -1,0 +1,9 @@
+New England|6
+Middle Atlantic|3
+East North Central|5
+West North Central|7
+South Atlantic|9
+East South Central|4
+West South Central|4
+Mountain|8
+Pacific|5

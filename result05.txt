@@ -1,0 +1,12 @@
+White Alone|Female|122238141
+White Alone|Male|119698920
+Black or African American Alone|Female|21045595
+Black or African American Alone|Male|19205040
+Asian Alone|Female|7941039
+Asian Alone|Male|7218477
+Two or More Races|Female|3557905
+Two or More Races|Male|3426290
+American Indian and Alaska Native Alone|Male|1889695
+American Indian and Alaska Native Alone|Female|1849811
+Native Hawaiian and Other Pacific Islander Alone|Male|342904
+Native Hawaiian and Other Pacific Islander Alone|Female|331721

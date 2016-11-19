@@ -1,0 +1,11 @@
+SELECT stNAME as 'State Name', a/b * 100 as 'Percentage'
+FROM HOUSING_UNITS_STATE_LEVEL, 
+(SELECT state as 'stateofA' , cast(sum(POPESTIMATE2011) as float) as 'a'
+FROM POP_ESTIMATE_STATE_AGE_SEX_RACE_ORIGIN
+WHERE POP_ESTIMATE_STATE_AGE_SEX_RACE_ORIGIN.age >= 21
+GROUP BY STATE),
+(SELECT state as 'stateofB', cast(sum(POPESTIMATE2011) as float) as 'b'
+FROM POP_ESTIMATE_STATE_AGE_SEX_RACE_ORIGIN
+GROUP BY STATE
+)
+Where stateofA = stateofB and stateofA = HOUSING_UNITS_STATE_LEVEL.state;
